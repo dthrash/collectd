@@ -39,7 +39,7 @@ macros.conf:
 Collectd has to be set up on every client machine. There is no universal forwarder needed on the client itself. Install collectd by using your distribution specific installer.
 
 	RedHat6/Centos6: yum install collectd-5.2.2-1.el6.en.x86_64
-	RedHat7/Centos7: yum install collectd-5.4.2-1.el7.x86_64
+	RedHat7/Centos7: yum install collectd-5.8.0-1.el7.x86_64
 	Debian/Ubuntu : apt-get install collectd -y
 
 You need to load the following plugins: cpu, df, disk, interface, load, memory, processes, swap and write_graphite. Here is an example file for /etc/collectd/collectd.conf.
